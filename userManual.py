@@ -59,7 +59,7 @@ content_frame = Frame(canvas, bg='#f0f0f0')  # Updated frame background color
 canvas.create_window((0, 0), window=content_frame, anchor="nw")
 
 # Title
-title = Label(content_frame, text='User Registration User Manual', fg='#57a1f8', bg='#f0f0f0',
+title = Label(content_frame, text='User Registration Manual', fg='#57a1f8', bg='#f0f0f0',
               font=('Arial', 24, 'bold'))  # Updated font and colors
 title.pack(pady=20)  # Increased padding
 
